@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 16, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: auto;
+    width: 500px;
+    padding: 20px; /* Added padding for better spacing */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+h1 {
+    margin-top: 10px;
+    display: flex; /* Added flex display */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    gap: 10px; /* Gap between text and image */
+}
+
+button {
+    background-color: skyblue;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icon1, .icon2 {
+    display: flex;
+    gap: 10px; 
+}
+
+#content {
+    margin: 15px auto;
+    max-height: 100px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+span {
+    color: red;
+    font-size: 22px;
+}
+
+.image-set img {
+    max-width: 80px;
+    max-height: 80px; 
+}
